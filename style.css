@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: #cb6ce6;
+}
+.navbar-brand {
+	font-size: 35px;
+	margin-left: 20px;
+	font-family: 'pacifico', cursive;
+}
+.nav-link, .navbar-brand {
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link:hover {
+	background: #f4f4f4;
+	color: #cb6ce6;
+}
+.bg-magenta {
+	color: white;
+	background-color: #cb6ce6;
+	background-position: 100%;
+}
+.about {
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about img {
+	width: 100%;
+}
+.about span {
+	display: block;
+	margin-top: 20px;
+}
+.about .desc {
+	text-align: left;
+	padding: 2em;
+	border-left: 5px solid #cb6ce6;
+}
+.about h3 {
+	margin-bottom: 25px;
+	color: #cb6ce6;
+}
+.about .desc p {
+	line-height: 2;
+	color: #888;
+}
+.experiences-detail {
+    border: 5px solid #f4f4f4;
+    border-radius: 8px;
+    padding: 100px;
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+#education h1 {
+	padding: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: #cb6ce6;
+}
+#education {
+	margin-bottom: 75px;
+}
+#about, #experiences, #skills,
+#interests, #award {
+	padding: 40px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+#experiences, #skills h1 {
+	color: white;
+	margin-bottom: 25px;
+}
+#about, #interests h1 {
+	color: #cb6ce6;
+	margin-bottom: 25px;
+}
+.award-detail {
+    border: 5px solid #f4f4f4;
+    border-radius: 8px;
+    padding: 100px;
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+.center {
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	height: 200px;
+}
+.footer h3 {
+	justify-content: center;
+	text-align: center;
+}
